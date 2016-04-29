@@ -2,20 +2,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Comics</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
-<body ng-controller="ComicsController">
-     <p>
-         
-         <button ng-click="add"></button>
-    {{cc.comicsFromTheService}}
-     </p>
+<body>
+    <div class="container" ng-controller="ComicsController as cc">
+        <div class="row">
+            <div class="col-md-12">
+                
+            
+  
+    {{cc.comicsFromTheService}} 
     
-   
+    
+   {{2+2}}
+            </div>
+        </div>
+    </div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script src="app/app.js"></script>
-    <script src="app/Comicsservice.js"></script>
     <script src="app/component/ComicsController.js"></script>
+    <script src="app/ComicsService.js"></script>
     
 </body>
 </html>

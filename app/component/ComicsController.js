@@ -5,6 +5,8 @@ app.controller('ComicsController', function(ComicsServices){
     cc.comicsFromTheService = ComicsServices.comics;
     
     
+    cc.test = 'Hello from the controller';
+    
     
     
     
